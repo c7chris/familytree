@@ -22,7 +22,7 @@ public class FamilyTreeRespository {
 	
 	static FamilyTree familyTree = new FamilyTree();
 	
-	public void addFamilyMember(String name, int age, String parent, String partner) throws MaximumParentsReachedException {
+	public void createFamilyMember(String name, int age, String parent, String partner) throws MaximumParentsReachedException {
 		FamilyTreeNode familyMember = new FamilyTreeNode(name, age);
 		familyTree.addFamilyMember(familyMember, parent, partner);
 	}
@@ -35,5 +35,17 @@ public class FamilyTreeRespository {
 					familyTreeNode.getAge()));
 		}
 		return familyTreeResponseObjects;
+	}
+	
+	public FamilyTreeNode readFamilyMember(String name) {
+		return null;
+	}
+
+	public void updateFamilyMember(FamilyTreeNode familyTreeNode) {
+		
+	}
+	
+	public void deleteFamilyMember(String name) {
+		
 	}
 }
