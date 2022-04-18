@@ -7,7 +7,7 @@ Please refer to the following files for further details.
 # Files
  1. **README.docx** - Contains the problem statement, along with questions.
  2. **Solutions.docx** - Contains the solutions to the questions.
- 3. **test_requests.postman_collection** - A handy *Postman* collection of requests that can be used for testing purposes. 
+ 3. **[test_requests.postman_collection](/src/test/resources/test_requests.postman_collection.json)** - A handy *Postman* collection of requests that can be used for testing purposes. 
 
 ## Authors
 
